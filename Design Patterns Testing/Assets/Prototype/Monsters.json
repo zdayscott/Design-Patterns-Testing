@@ -1,0 +1,25 @@
+[
+    {
+      "Name": "Gerblin",
+      "Health": 50,
+      "Speed": 4,
+      "Attacks": [ "SLASH" ],
+      "Resistances": [],
+      "Items": [ "STICK" ]
+    },
+    {
+      "Name": "HobGerblin",
+      "Prototype": "Gerblin",
+      "BonusHealth": 50,
+      "Resistances": [ "ICE", "FIRE" ],
+      "Items": [ "SWORD" ]
+    },
+    {
+      "Name": "Gerblin Archer",
+      "Prototype": "Gerblin",
+      "BonusHealth": -20,
+      "Attacks": ["SHOOT"],
+      "Resistances": [],
+      "Items": [ "BOW" ]
+    }
+]
